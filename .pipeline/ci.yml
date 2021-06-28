@@ -1,0 +1,12 @@
+image: ubuntu:18.04
+
+stages:
+  task1:
+    tasks:
+      - ls
+  
+  task2
+    depends_on:
+      - build
+    tasks:
+      - ls
