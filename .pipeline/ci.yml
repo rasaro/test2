@@ -5,7 +5,7 @@ stages:
     tasks:
       - ls
   
-  task2
+  task2:
     depends_on:
       - build
     tasks:
